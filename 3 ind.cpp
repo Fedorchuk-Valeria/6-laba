@@ -1,3 +1,4 @@
+///////// 11 вариант. 3 индивидуальное. 
 #include <iostream>
 #include <math.h>
 
@@ -6,7 +7,7 @@ using namespace std;
 int main()
 {
     int N;
-    int digit_number = 1;
+    int digit_number = 1;   ///// Cоздаём переменную, которая будет отвечать за степень (-1), то есть за знак (+\-) числа.
     int sum = 0;
     cout << "Enter amount of elements: ";
     cin >> N;
